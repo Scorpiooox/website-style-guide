@@ -1,0 +1,129 @@
+html {
+    background-color: rgba(235, 233, 233, 0.5);
+    margin-inline: 10%;
+}
+/* headings */
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 35px;
+    color: rgb(32, 32, 32);
+}
+h3 {
+    font-size: 25px;
+    text-decoration: underline;
+    color: black;
+}
+#colors,
+#fonts,
+#text-styles {
+    border: 2px solid grey;
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: rgb(32, 32, 32);
+}
+/* Colors section */
+.color-box {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    width: 32%;
+}
+.aqua {
+    background-color: #A1EAF0;
+}
+.tan {
+    background-color: #F5D7AB;
+}
+.pink {
+    background-color: #FFD8CF;
+}
+.purple {
+    background-color: #C3ADDB;
+}
+.green {
+    background-color: #C2D6AB;
+}
+/* Fonts Section */
+#fonts p {
+    font-size: 20px;
+    color: black;
+}
+.font-container {
+    display: inline-flex;
+    padding-left: 20px;
+    margin: 10px;
+}
+.raleway {
+    background-color: rgba(208, 208, 208, 0.2);
+    margin-right: 15px;
+    padding-inline: 15px;
+}
+.roboto {
+    background-color: rgba(208, 208, 208, 0.15);
+    margin-right: 15px;
+    padding-inline: 15px;
+}
+.poppins {
+    background-color: rgba(208, 208, 208, 0.2);
+    margin-right: 15px;
+    padding-inline: 10px;
+}
+/* Raleway */
+.raleway-thin {
+    font-family: 'Raleway', sans-serif;
+}
+.raleway-italic {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+.raleway-bold {
+    font-family: 'Raleway', sans-serif;
+    font-style: 800;
+}
+/* Roboto Slab */
+.roboto-thin {
+    font-family: 'Roboto Mono', monospace;
+}
+.roboto-bold {
+    font-family: 'Roboto Mono', monospace;
+    font-style: 700;
+}
+.roboto-italic {
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+    /*Poppins*/
+.poppins-thin {
+    font-family: 'Poppins', sans-serif;
+}
+.poppins-bold {
+    font-family: 'Poppins', sans-serif;
+    font-style: 700;
+}
+.poppins-italic {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+/* Text Style Section */
+.h1-style {
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-size: 40px;
+    background-color: rgba(208, 208, 208, 0.2);
+}
+.h2-style {
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-size: 30px;
+    background-color: rgba(208, 208, 208, 0.2);
+}
+.p-style {
+    font-weight: 400;
+    font-family: 'Raleway';
+    font-size: 20px;
+    background-color: rgba(208, 208, 208, 0.2);
+}
